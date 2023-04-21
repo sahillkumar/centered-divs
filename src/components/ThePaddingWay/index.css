@@ -1,0 +1,8 @@
+.paddingDiv {
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgb(16, 182, 77);
+  box-sizing: border-box;
+  padding: 65px;
+  text-align: center;
+}

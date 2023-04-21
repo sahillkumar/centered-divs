@@ -1,0 +1,21 @@
+.gridDiv {
+  height: 200px;
+  width: 200px;
+  display: grid;
+}
+
+.one {
+  border: 2px solid green;
+  place-items: center;
+}
+
+.two {
+  border: 2px solid purple;
+  place-content: center;
+}
+
+.three {
+  border: 2px solid brown;
+  justify-content: center;
+  align-items: center;
+}

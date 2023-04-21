@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TheFlexWay from "./components/TheFlexWay";
+import TheGridWay from "./components/TheGridWay";
+import ThePaddingWay from "./components/ThePaddingWay";
+import TheTransformWay from "./components/TheTranformWay";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TheFlexWay />
+      <TheGridWay />
+      <TheTransformWay />
+      <ThePaddingWay />
     </div>
   );
 }
